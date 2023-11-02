@@ -70,7 +70,7 @@ module Pronto
         comments: comments.map do |comment|
           {
             path:     comment.path,
-            position: comment.position,
+            position:  comment.position ,
             body:     comment.body
           }
         end
